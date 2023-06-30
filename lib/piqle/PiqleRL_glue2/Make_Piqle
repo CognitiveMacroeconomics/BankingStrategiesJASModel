@@ -1,0 +1,7 @@
+RLVizPath = ../../system/libraries
+
+all:
+	javac -d bin -cp $(RLVizPath)/RLVizLib.jar:src src/PiqleAgent/PiqleAgent.java 
+
+clean:
+	rm -Rf bin/*
